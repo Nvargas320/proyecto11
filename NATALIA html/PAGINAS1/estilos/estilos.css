@@ -1,0 +1,29 @@
+body { background-color: #f5ebe0;}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+    
+}
+.productos nav ol{
+
+        list-style: none;
+        column-count: 3;
+}
+.productos nav ol {
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+}
+div#log {
+   background-image: url(../IMAGE/LOGOTIPO1.png);
+   
+   
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: left;  
+}
